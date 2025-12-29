@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programme_m_teches",
+  "info": {
+    "singularName": "programme-m-tech",
+    "pluralName": "programme-m-teches",
+    "displayName": "Programme-M.tech"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

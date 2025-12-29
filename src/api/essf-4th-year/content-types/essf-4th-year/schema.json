@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "essf_4th_years",
+  "info": {
+    "singularName": "essf-4th-year",
+    "pluralName": "essf-4th-years",
+    "displayName": "ESSF-4th-Year"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

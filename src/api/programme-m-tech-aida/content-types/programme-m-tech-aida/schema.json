@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programme_m_tech_aidas",
+  "info": {
+    "singularName": "programme-m-tech-aida",
+    "pluralName": "programme-m-tech-aidas",
+    "displayName": "Programme-M.tech(AIDA)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

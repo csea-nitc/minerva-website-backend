@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internships_b_teches",
+  "info": {
+    "singularName": "internships-b-tech",
+    "pluralName": "internships-b-teches",
+    "displayName": "Internships-B.tech",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "essf_3rd_years",
+  "info": {
+    "singularName": "essf-3rd-year",
+    "pluralName": "essf-3rd-years",
+    "displayName": "ESSF-3rd-Year"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

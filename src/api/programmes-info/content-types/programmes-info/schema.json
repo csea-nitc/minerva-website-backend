@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programmes_infos",
+  "info": {
+    "singularName": "programmes-info",
+    "pluralName": "programmes-infos",
+    "displayName": "Programmes-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "para1": {
+      "type": "blocks"
+    },
+    "para2": {
+      "type": "blocks"
+    },
+    "img1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

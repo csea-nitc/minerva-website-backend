@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "completed_ph_ds",
+  "info": {
+    "singularName": "completed-ph-d",
+    "pluralName": "completed-ph-ds",
+    "displayName": "Completed-PhDS",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

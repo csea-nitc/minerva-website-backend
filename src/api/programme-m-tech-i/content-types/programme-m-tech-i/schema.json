@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programme_m_tech_is",
+  "info": {
+    "singularName": "programme-m-tech-i",
+    "pluralName": "programme-m-tech-is",
+    "displayName": "Programme-M.tech(IS)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

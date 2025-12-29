@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internships_m_tech_aidas",
+  "info": {
+    "singularName": "internships-m-tech-aida",
+    "pluralName": "internships-m-tech-aidas",
+    "displayName": "Internships-M.tech(AIDA)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

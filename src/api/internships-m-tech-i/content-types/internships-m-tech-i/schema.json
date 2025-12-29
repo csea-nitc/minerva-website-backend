@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "internships_m_tech_is",
+  "info": {
+    "singularName": "internships-m-tech-i",
+    "pluralName": "internships-m-tech-is",
+    "displayName": "Internships-M.tech(IS)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

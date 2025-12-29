@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programme_b_teches",
+  "info": {
+    "singularName": "programme-b-tech",
+    "pluralName": "programme-b-teches",
+    "displayName": "Programme-B.tech",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdf.pdf"
+    }
+  }
+}

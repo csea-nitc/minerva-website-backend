@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "distinguished_alumni",
+  "info": {
+    "singularName": "distinguished-alumn",
+    "pluralName": "distinguished-alumni",
+    "displayName": "Distinguished-alumni"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "External_Links": {
+      "type": "string"
+    },
+    "Job": {
+      "type": "string"
+    }
+  }
+}

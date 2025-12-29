@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "deparment_brochures",
+  "info": {
+    "singularName": "deparment-brochure",
+    "pluralName": "deparment-brochures",
+    "displayName": "Deparment-Brochure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pdf": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
