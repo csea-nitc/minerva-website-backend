@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "essf_docs",
+  "info": {
+    "singularName": "essf-doc",
+    "pluralName": "essf-docs",
+    "displayName": "ESSF-doc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pdf": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}
