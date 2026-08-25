@@ -473,6 +473,7 @@ export interface ApiAnnouncementAnnouncement
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.RichText;
+    hide: Schema.Attribute.Boolean;
     image: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true

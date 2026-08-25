@@ -31,8 +31,11 @@
     },
     "pdf": {
       "type": "component",
-      "repeatable": true,
-      "component": "pdf.pdf"
+      "component": "pdf.pdf",
+      "repeatable": true
+    },
+    "hide": {
+      "type": "boolean"
     }
   }
 }
