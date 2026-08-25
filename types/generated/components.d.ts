@@ -13,7 +13,7 @@ export interface PdfPdf extends Struct.ComponentSchema {
 }
 
 declare module '@strapi/strapi' {
-  export module Public {
+  export namespace Public {
     export interface ComponentSchemas {
       'pdf.pdf': PdfPdf;
     }
